@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0cfd2535d1d1c746a04b6e8c38281b2, type: 3}
   m_Name: Player Data
   m_EditorClassIdentifier: 
-  playerSpeed: 50
-  acceleration: 9
-  decceleration: 9
+  playerSpeed: 40
+  acceleration: 12
+  decceleration: 12
   velPower: 1.2
   frictionAmount: 0.5
   moveDir: {x: 0, y: 0}

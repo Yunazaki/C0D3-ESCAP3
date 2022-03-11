@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InteractableObject : MonoBehaviour
+public class PlayerInteract : MonoBehaviour
 {
 
     [SerializeField] private GameObject _icon;

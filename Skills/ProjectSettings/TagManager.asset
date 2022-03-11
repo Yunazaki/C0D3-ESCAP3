@@ -4,7 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - NewZone
+  - Interactable
   layers:
   - Default
   - TransparentFX

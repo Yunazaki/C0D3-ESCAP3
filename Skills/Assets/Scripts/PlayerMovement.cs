@@ -30,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
+        transform.position = new Vector3(-7.5f, -2.0f, 0f);
     }
 
     // Update is called once per frame
