@@ -18,3 +18,5 @@ MonoBehaviour:
   velPower: 1.2
   frictionAmount: 0.5
   moveDir: {x: 0, y: 0}
+  isInteracting: 0
+  inventory: {fileID: 11400000, guid: d626da738799e3c4cae5a7c0be65150e, type: 2}

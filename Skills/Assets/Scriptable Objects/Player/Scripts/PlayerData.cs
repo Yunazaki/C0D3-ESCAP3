@@ -13,5 +13,7 @@ public class PlayerData : ScriptableObject
     public float frictionAmount = 0.2f;
 
     public Vector2 moveDir;
+    public bool isInteracting;
+    public InventoryObject inventory;
 
 }

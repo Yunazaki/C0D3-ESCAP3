@@ -8,8 +8,8 @@ public class PlayerMovement : MonoBehaviour
 {
 
     private Rigidbody2D _rb;
-    [SerializeField] private PlayerData data;
-    private PlayerInput _input;
+    public PlayerData data;
+    public PlayerInput _input;
 
     void Awake()
     {
@@ -37,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
     {
 
         data.moveDir = _input.Move.Horizontal.ReadValue<Vector2>();
+        data.isInteracting = _input.Move.Interact.IsPressed();
 
     }
 
