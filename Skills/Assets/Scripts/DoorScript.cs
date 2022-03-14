@@ -22,7 +22,7 @@ public class DoorScript : MonoBehaviour
         if (col.collider.CompareTag("Player"))
         {
             Debug.Log("Player");
-            if (hasKey == true)
+            if (hasKey && data.isInteracting)
             {
                 Debug.Log("Key");
                 gameObject.SetActive(false);

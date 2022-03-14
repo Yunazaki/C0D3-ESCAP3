@@ -15,5 +15,6 @@ public class PlayerData : ScriptableObject
     public Vector2 moveDir;
     public bool isInteracting;
     public InventoryObject inventory;
+    public PlayerInput input;
 
 }

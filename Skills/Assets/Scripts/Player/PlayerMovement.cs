@@ -9,21 +9,20 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D _rb;
     public PlayerData data;
-    public PlayerInput _input;
 
     void Awake()
     {
-        _input = new PlayerInput();
+        data.input = new PlayerInput();
     }
 
     void OnEnable()
     {
-        _input.Enable();
+        data.input.Enable();
     }
 
     void OnDisable()
     {
-        _input.Disable();
+        data.input.Disable();
     }
 
     // Start is called before the first frame update
@@ -36,8 +35,8 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
 
-        data.moveDir = _input.Move.Horizontal.ReadValue<Vector2>();
-        data.isInteracting = _input.Move.Interact.IsPressed();
+        data.moveDir = data.input.Move.Horizontal.ReadValue<Vector2>();
+        data.isInteracting = data.input.Move.Interact.IsPressed();
 
     }
 
