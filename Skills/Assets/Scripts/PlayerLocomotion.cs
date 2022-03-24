@@ -8,12 +8,11 @@ public class PlayerLocomotion : MonoBehaviour
 
     InputHandler inputHandler;
     Vector3 moveDir;
+    public PlayerStats playerStats;
 
     private Rigidbody2D _rb;
 
-    [Header("Stats")]
-    [SerializeField]
-    float movementSpeed = 5f;
+
 
     void Start()
     {
@@ -43,7 +42,7 @@ public class PlayerLocomotion : MonoBehaviour
 
         moveDir.Normalize();
 
-        float speed = movementSpeed;
+        float speed = playerStats.playerSpeed;
         moveDir *= speed;
 
         _rb.velocity = moveDir * Time.deltaTime;
