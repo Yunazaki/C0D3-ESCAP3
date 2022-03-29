@@ -6,12 +6,16 @@ using System;
 public class Key : MonoBehaviour, ICollectible
 {
 
-    public static event Action OnKeyCollected;
+    public static event HandleKeyCollected OnKeyCollected;
+    public static event HandleKeyCollected OnKeyUse;
+
+    public delegate void HandleKeyCollected(ItemData itemData);
+
+    public ItemData key;
 
     public void Collect()
     {
-        Debug.Log("Key Collected");
         Destroy(gameObject);
-        OnKeyCollected?.Invoke();
+        OnKeyCollected?.Invoke(key);
     }
 }

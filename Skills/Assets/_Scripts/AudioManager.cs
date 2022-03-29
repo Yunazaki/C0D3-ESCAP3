@@ -61,7 +61,7 @@ public class AudioManager : MonoBehaviour
 
     }
 
-    public void ItemPickup()
+    public void ItemPickup(ItemData itemData)
     {
         Play("Item Pickup");
     }
