@@ -175,7 +175,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7769607, y: 1}
+    m_SensorSize: {x: 1.7777778, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -297,6 +297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8035d2fafcb11a1459842c710e11ff62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  key: {fileID: 11400000, guid: 1e6a3fc07893849429ea25f1ae70bad6, type: 2}
 --- !u!212 &520589500
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2157,7 +2158,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7769607, y: 1}
+    m_SensorSize: {x: 1.7777778, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -6354,6 +6355,7 @@ GameObject:
   - component: {fileID: 1724136901}
   - component: {fileID: 1724136900}
   - component: {fileID: 1724136899}
+  - component: {fileID: 1724136905}
   m_Layer: 3
   m_Name: Hero
   m_TagString: Untagged
@@ -6551,6 +6553,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.75464195, y: 1.2843821}
   m_EdgeRadius: 0
+--- !u!114 &1724136905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724136895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3436015e713c95c48a1e75bfef833807, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: []
 --- !u!1 &1783366350
 GameObject:
   m_ObjectHideFlags: 0
@@ -6647,7 +6662,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7769607, y: 1}
+    m_SensorSize: {x: 1.7777778, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
