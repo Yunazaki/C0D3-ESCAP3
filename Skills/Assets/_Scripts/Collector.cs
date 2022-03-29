@@ -28,6 +28,7 @@ public class Collector : MonoBehaviour
             Debug.Log("Can Collect");
             canCollect = true;
         }
+        
     }
 
     void OnTriggerExit2D(Collider2D col)

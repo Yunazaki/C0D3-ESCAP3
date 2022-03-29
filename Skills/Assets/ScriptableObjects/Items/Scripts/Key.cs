@@ -18,4 +18,10 @@ public class Key : MonoBehaviour, ICollectible
         Destroy(gameObject);
         OnKeyCollected?.Invoke(key);
     }
+
+    public void Use()
+    {
+        OnKeyUse?.Invoke(key);
+    }
+    
 }
