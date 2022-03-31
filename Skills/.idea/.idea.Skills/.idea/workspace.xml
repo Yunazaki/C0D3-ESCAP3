@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8b2c495-ef57-422b-a701-8732e01dbb30" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Walk/Player_Walk_Front.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Walk/Player_Walk_Front.anim.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Animations/UI.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Animations/UI/Crossfade.controller" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Animations/UI/Crossfade.controller.meta" afterDir="false" />
@@ -30,6 +32,10 @@
       <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Items/Scripts.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Items/Scripts/Key.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Items/Scripts/Key.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/player_fresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/player_fresh.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/player_walk.aseprite" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" afterDir="false" />
@@ -205,7 +211,7 @@
       <workItem from="1648547522536" duration="75000" />
       <workItem from="1648587264647" duration="1601000" />
       <workItem from="1648604532597" duration="2745000" />
-      <workItem from="1648610192045" duration="3961000" />
+      <workItem from="1648610192045" duration="4612000" />
     </task>
     <servers />
   </component>
