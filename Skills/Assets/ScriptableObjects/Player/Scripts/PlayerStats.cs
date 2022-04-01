@@ -6,4 +6,6 @@ public class PlayerStats : ScriptableObject
 
     [Header("Movement")]
     public float playerSpeed;
+
+    public float sprintSpeed;
 }

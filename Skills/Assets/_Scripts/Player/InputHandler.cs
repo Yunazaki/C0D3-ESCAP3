@@ -8,6 +8,7 @@ public class InputHandler : MonoBehaviour
     public float horizontal;
     public float vertical;
     public float moveAmount;
+    public bool isSprinting;
 
     public PlayerControls inputActions;
 
@@ -21,6 +22,10 @@ public class InputHandler : MonoBehaviour
         {
             inputActions = new PlayerControls();
             inputActions.PlayerMovement.Movement.performed += inputActions => movementInput = inputActions.ReadValue<Vector2>();
+            inputActions.PlayerMovement.SprintStart.performed += x => SprintPressed();
+            inputActions.PlayerMovement.SprintEnd.performed += x => SprintReleased();
+            inputActions.PlayerMovement.InteractStart.performed += x => InteractPressed();
+            inputActions.PlayerMovement.InteractEnd.performed += x => InteractReleased();
         }
 
         inputActions.Enable();
@@ -42,6 +47,26 @@ public class InputHandler : MonoBehaviour
         horizontal = movementInput.x;
         vertical = movementInput.y;
         moveAmount = Mathf.Clamp01(Mathf.Abs(horizontal) + Mathf.Abs(vertical));
+    }
+
+    private void SprintPressed()
+    {
+        isSprinting = true;
+    }
+
+    private void SprintReleased()
+    {
+        isSprinting = false;
+    }
+
+    private void InteractPressed()
+    {
+        isInteracting = true;
+    }
+
+    private void InteractReleased()
+    {
+        isInteracting = false;
     }
 
 }

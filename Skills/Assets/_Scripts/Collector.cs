@@ -42,7 +42,7 @@ public class Collector : MonoBehaviour
 
     private void Collect()
     {
-        if (inputHandler.inputActions.PlayerMovement.Interact.WasPressedThisFrame())
+        if (inputHandler.isInteracting)
         {
             if (canCollect)
             {

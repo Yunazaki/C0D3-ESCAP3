@@ -37,9 +37,36 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Interact"",
+                    ""name"": ""InteractStart"",
                     ""type"": ""Button"",
                     ""id"": ""1be8e8e6-25d0-4e43-8d1a-bb25b0d63e01"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""InteractEnd"",
+                    ""type"": ""Button"",
+                    ""id"": ""d3e6f5d3-4aad-45ed-8b81-ab0534273d4c"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""SprintStart"",
+                    ""type"": ""Button"",
+                    ""id"": ""8fb9395a-e192-4c73-8fe6-8057e42f8539"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""SprintEnd"",
+                    ""type"": ""Button"",
+                    ""id"": ""f58d36e8-b66e-43e8-9ec6-224b85cf0348"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -109,7 +136,40 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""interactions"": ""Press"",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Interact"",
+                    ""action"": ""InteractStart"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e3676a7b-310b-4c60-854d-341ee88b09b2"",
+                    ""path"": ""<Keyboard>/leftShift"",
+                    ""interactions"": ""Press"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SprintStart"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""dfa1952e-c200-4815-9472-db37895880f9"",
+                    ""path"": ""<Keyboard>/leftShift"",
+                    ""interactions"": ""Press(behavior=1)"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SprintEnd"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""714c4fa3-0428-459d-b143-02d70a4602b8"",
+                    ""path"": ""<Keyboard>/e"",
+                    ""interactions"": ""Press(behavior=1)"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""InteractEnd"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -121,7 +181,10 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         // Player Movement
         m_PlayerMovement = asset.FindActionMap("Player Movement", throwIfNotFound: true);
         m_PlayerMovement_Movement = m_PlayerMovement.FindAction("Movement", throwIfNotFound: true);
-        m_PlayerMovement_Interact = m_PlayerMovement.FindAction("Interact", throwIfNotFound: true);
+        m_PlayerMovement_InteractStart = m_PlayerMovement.FindAction("InteractStart", throwIfNotFound: true);
+        m_PlayerMovement_InteractEnd = m_PlayerMovement.FindAction("InteractEnd", throwIfNotFound: true);
+        m_PlayerMovement_SprintStart = m_PlayerMovement.FindAction("SprintStart", throwIfNotFound: true);
+        m_PlayerMovement_SprintEnd = m_PlayerMovement.FindAction("SprintEnd", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -182,13 +245,19 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
     private readonly InputActionMap m_PlayerMovement;
     private IPlayerMovementActions m_PlayerMovementActionsCallbackInterface;
     private readonly InputAction m_PlayerMovement_Movement;
-    private readonly InputAction m_PlayerMovement_Interact;
+    private readonly InputAction m_PlayerMovement_InteractStart;
+    private readonly InputAction m_PlayerMovement_InteractEnd;
+    private readonly InputAction m_PlayerMovement_SprintStart;
+    private readonly InputAction m_PlayerMovement_SprintEnd;
     public struct PlayerMovementActions
     {
         private @PlayerControls m_Wrapper;
         public PlayerMovementActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
         public InputAction @Movement => m_Wrapper.m_PlayerMovement_Movement;
-        public InputAction @Interact => m_Wrapper.m_PlayerMovement_Interact;
+        public InputAction @InteractStart => m_Wrapper.m_PlayerMovement_InteractStart;
+        public InputAction @InteractEnd => m_Wrapper.m_PlayerMovement_InteractEnd;
+        public InputAction @SprintStart => m_Wrapper.m_PlayerMovement_SprintStart;
+        public InputAction @SprintEnd => m_Wrapper.m_PlayerMovement_SprintEnd;
         public InputActionMap Get() { return m_Wrapper.m_PlayerMovement; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -201,9 +270,18 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @Movement.started -= m_Wrapper.m_PlayerMovementActionsCallbackInterface.OnMovement;
                 @Movement.performed -= m_Wrapper.m_PlayerMovementActionsCallbackInterface.OnMovement;
                 @Movement.canceled -= m_Wrapper.m_PlayerMovementActionsCallbackInterface.OnMovement;
-                @Interact.started -= m_Wrapper.m_PlayerMovementActionsCallbackInterface.OnInteract;
-                @Interact.performed -= m_Wrapper.m_PlayerMovementActionsCallbackInterface.OnInteract;
-                @Interact.canceled -= m_Wrapper.m_PlayerMovementActionsCallbackInterface.OnInteract;
+                @InteractStart.started -= m_Wrapper.m_PlayerMovementActionsCallbackInterface.OnInteractStart;
+                @InteractStart.performed -= m_Wrapper.m_PlayerMovementActionsCallbackInterface.OnInteractStart;
+                @InteractStart.canceled -= m_Wrapper.m_PlayerMovementActionsCallbackInterface.OnInteractStart;
+                @InteractEnd.started -= m_Wrapper.m_PlayerMovementActionsCallbackInterface.OnInteractEnd;
+                @InteractEnd.performed -= m_Wrapper.m_PlayerMovementActionsCallbackInterface.OnInteractEnd;
+                @InteractEnd.canceled -= m_Wrapper.m_PlayerMovementActionsCallbackInterface.OnInteractEnd;
+                @SprintStart.started -= m_Wrapper.m_PlayerMovementActionsCallbackInterface.OnSprintStart;
+                @SprintStart.performed -= m_Wrapper.m_PlayerMovementActionsCallbackInterface.OnSprintStart;
+                @SprintStart.canceled -= m_Wrapper.m_PlayerMovementActionsCallbackInterface.OnSprintStart;
+                @SprintEnd.started -= m_Wrapper.m_PlayerMovementActionsCallbackInterface.OnSprintEnd;
+                @SprintEnd.performed -= m_Wrapper.m_PlayerMovementActionsCallbackInterface.OnSprintEnd;
+                @SprintEnd.canceled -= m_Wrapper.m_PlayerMovementActionsCallbackInterface.OnSprintEnd;
             }
             m_Wrapper.m_PlayerMovementActionsCallbackInterface = instance;
             if (instance != null)
@@ -211,9 +289,18 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @Movement.started += instance.OnMovement;
                 @Movement.performed += instance.OnMovement;
                 @Movement.canceled += instance.OnMovement;
-                @Interact.started += instance.OnInteract;
-                @Interact.performed += instance.OnInteract;
-                @Interact.canceled += instance.OnInteract;
+                @InteractStart.started += instance.OnInteractStart;
+                @InteractStart.performed += instance.OnInteractStart;
+                @InteractStart.canceled += instance.OnInteractStart;
+                @InteractEnd.started += instance.OnInteractEnd;
+                @InteractEnd.performed += instance.OnInteractEnd;
+                @InteractEnd.canceled += instance.OnInteractEnd;
+                @SprintStart.started += instance.OnSprintStart;
+                @SprintStart.performed += instance.OnSprintStart;
+                @SprintStart.canceled += instance.OnSprintStart;
+                @SprintEnd.started += instance.OnSprintEnd;
+                @SprintEnd.performed += instance.OnSprintEnd;
+                @SprintEnd.canceled += instance.OnSprintEnd;
             }
         }
     }
@@ -221,6 +308,9 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
     public interface IPlayerMovementActions
     {
         void OnMovement(InputAction.CallbackContext context);
-        void OnInteract(InputAction.CallbackContext context);
+        void OnInteractStart(InputAction.CallbackContext context);
+        void OnInteractEnd(InputAction.CallbackContext context);
+        void OnSprintStart(InputAction.CallbackContext context);
+        void OnSprintEnd(InputAction.CallbackContext context);
     }
 }

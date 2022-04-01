@@ -5,8 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8b2c495-ef57-422b-a701-8732e01dbb30" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Door.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Door/Door.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Door/Door.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Door/DoorClose.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Door/DoorClose.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Door/DoorOpen.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Door/DoorOpen.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Idle/Player_Idle_Back.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Idle/Player_Idle_Back.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Idle/Player_Idle_Front.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Idle/Player_Idle_Front.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Idle/Player_Idle_Left.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Idle/Player_Idle_Left.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Idle/Player_Idle_Right.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Idle/Player_Idle_Right.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Walk/Player_Walk_Back.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Walk/Player_Walk_Back.anim.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Walk/Player_Walk_Front.anim" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Walk/Player_Walk_Front.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Walk/Player_Walk_Left.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Walk/Player_Walk_Left.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Walk/Player_Walk_Right.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Walk/Player_Walk_Right.anim.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Animations/UI.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Animations/UI/Crossfade.controller" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Animations/UI/Crossfade.controller.meta" afterDir="false" />
@@ -18,10 +39,15 @@
       <change afterPath="$PROJECT_DIR$/Assets/Animations/UI/TextFade.controller.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Animations/UI/Textfade_start.anim" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Animations/UI/Textfade_start.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Exit.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Exit.prefab.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelLoader.prefab" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelLoader.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Slot.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Slot.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Floors.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Floors/01_Floor01.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Floors/01_Floor01.unity.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Scenes/Opening.unity" afterDir="false" />
@@ -33,9 +59,31 @@
       <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Items/Scripts/Key.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Items/Scripts/Key.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Sprites.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/player_fresh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/player_fresh.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/player_walk.aseprite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/_aseprite.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/_aseprite/player_walk.aseprite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/_aseprite/player_walk.aseprite.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/_aseprite/player_walk_back.aseprite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/_aseprite/player_walk_back.aseprite.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/_aseprite/player_walk_left.aseprite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/_aseprite/player_walk_left.aseprite.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/player_walk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/player_walk.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/player_walk_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/player_walk_back.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/player_walk_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/player_walk_left.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/player_walk_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/player_walk_right.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/Door.aseprite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/Door.aseprite.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/Door.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/Door.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/House.aseprite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/House.aseprite.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/House.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/House.png.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" afterDir="false" />
@@ -109,11 +157,94 @@
       <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_0.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_0.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_10.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_10.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_11.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_11.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_12.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_12.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_13.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_13.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_14.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_14.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_15.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_15.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_16.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_16.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_17.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_17.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_18.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_18.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_19.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_19.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_20.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_20.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_21.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_21.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_22.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_22.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_23.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_23.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_24.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_24.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_25.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_25.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_26.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_26.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_27.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_27.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_28.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_28.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_29.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_29.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_3.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_3.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_30.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_30.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_31.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_31.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_32.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_32.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_33.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_33.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_34.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_34.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_35.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_35.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_36.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_36.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_4.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_4.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_5.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_5.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_6.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_6.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_7.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_7.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_8.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_8.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_9.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_9.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_Tileset.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemap/House/House_Tileset.prefab.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Timeline.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Timeline/StoryboardTimeline.playable" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Timeline/StoryboardTimeline.playable.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/DoorAnimator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/DoorAnimator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/DoorTrigger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/DoorTrigger.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Inventory/InventorySlot.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Inventory/InventorySlot.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Inventory/Item.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Inventory/Item.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/LevelLoader.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/LevelLoader.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers.meta" afterDir="false" />
@@ -121,6 +252,8 @@
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/AudioManager.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/NextLevel.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/NextLevel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerController.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ProjectSettings/TimelineSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -212,6 +345,7 @@
       <workItem from="1648587264647" duration="1601000" />
       <workItem from="1648604532597" duration="2745000" />
       <workItem from="1648610192045" duration="4612000" />
+      <workItem from="1648773375736" duration="12860000" />
     </task>
     <servers />
   </component>

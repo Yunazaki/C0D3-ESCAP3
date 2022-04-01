@@ -44,8 +44,17 @@ public class PlayerLocomotion : MonoBehaviour
         moveDir.Normalize();
 
         float speed = playerStats.playerSpeed;
-        moveDir *= speed;
+        float sprintSpeed = playerStats.sprintSpeed;
 
+        if (inputHandler.isSprinting)
+        {
+            moveDir *= sprintSpeed;
+        }
+        else
+        {
+            moveDir *= speed;
+        }
+        
         _rb.velocity = moveDir * Time.deltaTime;
 
     }
