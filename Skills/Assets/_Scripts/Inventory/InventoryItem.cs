@@ -1,29 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using System;
+using UnityEngine;
 
-[Serializable]
-public class InventoryItem
+namespace _Scripts.Inventory
 {
-
-    public ItemData itemData;
-    public int itemCount;
-
-    public InventoryItem(ItemData item)
+    [Serializable]
+    public class InventoryItem
     {
-        itemData = item;
-        AddToCount();
-    }
+        public ItemData itemData;
 
-    public void AddToCount()
-    {
-        itemCount++;
+        public InventoryItem(ItemData item)
+        {
+            itemData = item;
+        }
     }
-
-    public void RemoveFromCount()
-    {
-        itemCount--;
-    }
-
 }

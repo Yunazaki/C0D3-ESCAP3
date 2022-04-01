@@ -1,10 +1,11 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Item Data", menuName = "Inventory/ItemData")]
-public class ItemData : ScriptableObject
+namespace _Scripts.Inventory
 {
-
-    public string displayName;
-    public Sprite icon;
-
+    [CreateAssetMenu(fileName = "Item Data", menuName = "Item Data", order = 0)]
+    public class ItemData : ScriptableObject
+    {
+        public string displayName;
+        public Sprite Icon;
+    }
 }

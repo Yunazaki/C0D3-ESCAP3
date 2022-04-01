@@ -12,12 +12,12 @@ public class AudioManager : MonoBehaviour
 
     private void OnEnable()
     {
-        Key.OnKeyCollected += ItemPickup;
+        
     }
 
     private void OnDisable()
     {
-        Key.OnKeyCollected -= ItemPickup;
+        
     }
 
     void Awake()
@@ -60,9 +60,5 @@ public class AudioManager : MonoBehaviour
         s.source.Play();
 
     }
-
-    public void ItemPickup(ItemData itemData)
-    {
-        Play("Item Pickup");
-    }
+    
 }

@@ -53,11 +53,8 @@
       <change afterPath="$PROJECT_DIR$/Assets/Scenes/Opening.unity" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Scenes/Opening.unity.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Items.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Items/Key Data.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Items/Key Data.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Items/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Items/Scripts/Key.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Items/Scripts/Key.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Items/Key.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Items/Key.asset.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Sprites.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/_aseprite.meta" afterDir="false" />
@@ -241,19 +238,32 @@
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/DoorAnimator.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/DoorTrigger.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/DoorTrigger.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Inventory/InventorySlot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Inventory/InventorySlot.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Inventory/Item.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Inventory/Item.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Inventory/Collector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Inventory/Collector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Inventory/ICollectible.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Inventory/ICollectible.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Inventory/Inventory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Inventory/Inventory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Inventory/InventoryItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Inventory/InventoryItem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Inventory/ItemData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Inventory/ItemData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Items.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Items/Key.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Items/Key.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/LevelLoader.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/LevelLoader.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/AudioManager.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/AudioManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/TutorialManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/TutorialManager.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/NextLevel.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/NextLevel.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerController.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerStats.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerStats.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ProjectSettings/TimelineSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -345,7 +355,7 @@
       <workItem from="1648587264647" duration="1601000" />
       <workItem from="1648604532597" duration="2745000" />
       <workItem from="1648610192045" duration="4612000" />
-      <workItem from="1648773375736" duration="12860000" />
+      <workItem from="1648773375736" duration="20448000" />
     </task>
     <servers />
   </component>
