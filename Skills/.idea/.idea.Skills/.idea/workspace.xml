@@ -81,6 +81,8 @@
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/House.aseprite.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/House.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/House.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/wasd keys.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/wasd keys.png.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" afterDir="false" />
@@ -356,6 +358,7 @@
       <workItem from="1648604532597" duration="2745000" />
       <workItem from="1648610192045" duration="4612000" />
       <workItem from="1648773375736" duration="20448000" />
+      <workItem from="1649069612953" duration="2411000" />
     </task>
     <servers />
   </component>
