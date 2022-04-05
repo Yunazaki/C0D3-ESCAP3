@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using _Scripts.Inventory;
 using _Scripts.Items;
+using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 
 public class DoorTrigger : MonoBehaviour

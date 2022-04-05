@@ -7,8 +7,8 @@ namespace _Scripts.Items
     public class Key : MonoBehaviour, ICollectible
     {
         public static event HandleKeyCollected OnKeyCollected;
-
         public delegate void HandleKeyCollected(ItemData itemData);
+        
 
         public ItemData keyData;
 

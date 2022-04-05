@@ -24,5 +24,10 @@ namespace _Scripts.Inventory
             InventoryItem newItem = new InventoryItem(itemData); // Create a new inventory item
             inventory.Add(newItem);
         }
+
+        public void Remove(InventoryItem item)
+        {
+            inventory.Remove(item);
+        }
     }
 }

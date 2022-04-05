@@ -7,6 +7,7 @@ namespace _Scripts.Inventory
     {
         private InputHandler _inputHandler;
         private ICollectible _collectible;
+        public AudioManager _audioManager;
 
         private bool canCollect;
 
@@ -43,6 +44,7 @@ namespace _Scripts.Inventory
             if (_inputHandler.isInteracting && canCollect)
             {
                 _collectible.Collect();
+                _audioManager.Play("Item Pickup");
             }
         }
     }

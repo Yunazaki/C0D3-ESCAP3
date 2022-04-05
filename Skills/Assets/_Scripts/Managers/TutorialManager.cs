@@ -9,6 +9,8 @@ namespace _Scripts.Managers
         private int popUpIndex;
         public InputHandler _inputHandler;
 
+        public GameObject key;
+
         private void Update()
         {
             PopUpController();
@@ -16,18 +18,7 @@ namespace _Scripts.Managers
 
         private void PopUpController()
         {
-            for (int i = 0; i < popUps.Length; i++)
-            {
-                if (i == popUpIndex)
-                {
-                    popUps[popUpIndex].SetActive(true);
-                }
-                else
-                {
-                    popUps[popUpIndex].SetActive(false);
-                }
-            }
-            
+
             switch (popUpIndex)
             {
                 case 0:
@@ -41,14 +32,36 @@ namespace _Scripts.Managers
 
                     break;
                 case 1:
+                    popUps[popUpIndex].SetActive(true);
                     if (_inputHandler.isSprinting)
                     {
-                        Debug.Log("Increasing Index");
+                        popUps[popUpIndex].SetActive(false);
                         popUpIndex++;
                     }
 
                     break;
                 case 2:
+                    popUps[popUpIndex].SetActive(true);
+                    var tutorial = popUps[popUpIndex].GetComponent<Tutorial_3>();
+                    if (tutorial.trigger == true)
+                    {
+                        popUps[popUpIndex].SetActive(false);
+                        popUpIndex++;
+                    }
+                    break;
+                case 3:
+                    popUps[popUpIndex].SetActive(true);
+                    key.SetActive(true);
+                    if (_inputHandler.isInteracting)
+                    {
+                        popUps[popUpIndex].SetActive(false);
+                        popUpIndex++;
+                    }
+
+                    break;
+                case 4:
+                    if (popUps[popUpIndex] == null) return;
+                    popUps[popUpIndex].SetActive(true);
 
                     break;
             }
