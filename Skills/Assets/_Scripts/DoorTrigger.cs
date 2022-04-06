@@ -11,7 +11,7 @@ public class DoorTrigger : MonoBehaviour
 {
     private DoorAnimator _doorAnimator;
     public Inventory _inventory;
-    public InputHandler _inputHandler;
+    private InputHandler _inputHandler;
     public InventoryItem key;
 
     private bool inTrigger;
@@ -21,6 +21,7 @@ public class DoorTrigger : MonoBehaviour
     void Start()
     {
         _doorAnimator = GetComponent<DoorAnimator>();
+        _inputHandler = InputHandler.instance;
     }
 
     // Update is called once per frame

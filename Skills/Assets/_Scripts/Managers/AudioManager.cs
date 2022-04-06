@@ -7,18 +7,7 @@ public class AudioManager : MonoBehaviour
 
     public static AudioManager instance;
     public Sound[] sounds;
-    [HideInInspector]
-    public AudioSource audioSource;
-
-    private void OnEnable()
-    {
-        
-    }
-
-    private void OnDisable()
-    {
-        
-    }
+    [HideInInspector] public AudioSource audioSource;
 
     void Awake()
     {

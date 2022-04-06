@@ -34,6 +34,15 @@
       <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Walk/Player_Walk_Right.anim" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Walk/Player_Walk_Right.anim.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Animations/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/UI/Code Lock.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/UI/Code Lock/Code Lock.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/UI/Code Lock/Code Lock.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/UI/Code Lock/InitialState.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/UI/Code Lock/InitialState.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/UI/Code Lock/Slide_In.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/UI/Code Lock/Slide_In.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/UI/Code Lock/Slide_Out.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/UI/Code Lock/Slide_Out.anim.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Animations/UI/Crossfade.controller" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Animations/UI/Crossfade.controller.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Animations/UI/Crossfade_end.anim" afterDir="false" />
@@ -53,8 +62,6 @@
       <change afterPath="$PROJECT_DIR$/Assets/MainMenu/QuitButton.psd.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/MainMenu/StartButton.psd" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/MainMenu/StartButton.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainMenu/TextBox.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainMenu/TextBox.psd.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Exit.prefab" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Exit.prefab.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Key.prefab" afterDir="false" />
@@ -63,6 +70,8 @@
       <change afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelLoader.prefab.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Main Camera.prefab" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Main Camera.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Managers.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Managers.prefab.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Scenes/Floors.meta" afterDir="false" />
@@ -102,6 +111,10 @@
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/player_walk_right.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/player_walk_right.png.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/CodeLock.aseprite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/CodeLock.aseprite.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/CodeLock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/CodeLock.png.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/Door.aseprite" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/Door.aseprite.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/Door.png" afterDir="false" />
@@ -110,6 +123,10 @@
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/House.aseprite.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/House.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/House.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/LockDoor.aseprite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/LockDoor.aseprite.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/LockDoor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/LockDoor.png.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Keypad.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Keypad/NumberButtons.aseprite" afterDir="false" />
@@ -124,14 +141,17 @@
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Keypad/Numbers.aseprite.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Keypad/Numbers.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Keypad/Numbers.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/keyboard-key-e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/keyboard-key-e.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/right-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/right-arrow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/shift.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/shift.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/wasd keys.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/wasd keys.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/TextBox.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/TextBox.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Tutorial.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Tutorial/keyboard-key-e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Tutorial/keyboard-key-e.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Tutorial/right-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Tutorial/right-arrow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Tutorial/shift.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Tutorial/shift.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Tutorial/wasd keys.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Tutorial/wasd keys.png.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" afterDir="false" />
@@ -311,8 +331,12 @@
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/LevelTransition.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/LevelTransition.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Lock.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Lock/AnimationHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Lock/AnimationHandler.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Lock/Display.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Lock/Display.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Lock/LockTrigger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Lock/LockTrigger.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Lock/PushButton.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Lock/PushButton.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers.meta" afterDir="false" />
@@ -420,7 +444,7 @@
       <workItem from="1648604532597" duration="2745000" />
       <workItem from="1648610192045" duration="4612000" />
       <workItem from="1648773375736" duration="20448000" />
-      <workItem from="1649069612953" duration="18453000" />
+      <workItem from="1649069612953" duration="21123000" />
     </task>
     <servers />
   </component>

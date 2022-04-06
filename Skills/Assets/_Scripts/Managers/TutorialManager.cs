@@ -25,7 +25,6 @@ namespace _Scripts.Managers
                     popUps[popUpIndex].SetActive(true);
                     if (Mathf.Abs(_inputHandler.horizontal) > 0.01f || Mathf.Abs(_inputHandler.vertical) > 0.01f)
                     {
-                        Debug.Log("Increasing Index");
                         popUps[popUpIndex].SetActive(false);
                         popUpIndex++;
                     }

@@ -5,6 +5,8 @@ using UnityEngine;
 public class InputHandler : MonoBehaviour
 {
 
+    public static InputHandler instance;
+    
     public float horizontal;
     public float vertical;
     public float moveAmount;
@@ -29,6 +31,16 @@ public class InputHandler : MonoBehaviour
         }
 
         inputActions.Enable();
+
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+            return;
+        }
 
     }
 
