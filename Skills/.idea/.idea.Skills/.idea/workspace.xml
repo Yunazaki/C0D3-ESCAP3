@@ -53,23 +53,27 @@
       <change afterPath="$PROJECT_DIR$/Assets/MainMenu/QuitButton.psd.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/MainMenu/StartButton.psd" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/MainMenu/StartButton.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainMenu/TextBox.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainMenu/TextBox.psd.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Exit.prefab" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Exit.prefab.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Key.prefab" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Key.prefab.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelLoader.prefab" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelLoader.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Main Camera.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Main Camera.prefab.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Scenes/Floors.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Scenes/Floors/01_Floor01.unity" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Scenes/Floors/01_Floor01.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Floors/TutorialScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Floors/TutorialScene.unity.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Scenes/Opening.unity" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Scenes/Opening.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/TutorialScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/TutorialScene.unity.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Items.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Items/Key.asset" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Items/Key.asset.meta" afterDir="false" />
@@ -107,6 +111,19 @@
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/House.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/House.png.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Keypad.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Keypad/NumberButtons.aseprite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Keypad/NumberButtons.aseprite.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Keypad/NumberButtons_Down.aseprite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Keypad/NumberButtons_Down.aseprite.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Keypad/NumberButtons_Down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Keypad/NumberButtons_Down.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Keypad/NumberButtons_Up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Keypad/NumberButtons_Up.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Keypad/Numbers.aseprite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Keypad/Numbers.aseprite.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Keypad/Numbers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Keypad/Numbers.png.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/keyboard-key-e.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/keyboard-key-e.png.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/right-arrow.png" afterDir="false" />
@@ -293,6 +310,11 @@
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/LevelLoader.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/LevelTransition.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/LevelTransition.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Lock.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Lock/Display.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Lock/Display.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Lock/PushButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Lock/PushButton.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/AudioManager.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/AudioManager.cs.meta" afterDir="false" />
@@ -398,7 +420,7 @@
       <workItem from="1648604532597" duration="2745000" />
       <workItem from="1648610192045" duration="4612000" />
       <workItem from="1648773375736" duration="20448000" />
-      <workItem from="1649069612953" duration="13115000" />
+      <workItem from="1649069612953" duration="18453000" />
     </task>
     <servers />
   </component>

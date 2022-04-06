@@ -9,7 +9,7 @@ public class PlayerLocomotion : MonoBehaviour
     InputHandler inputHandler;
     Vector3 moveDir;
     public PlayerStats playerStats;
-    public AudioManager audioManager;
+    private AudioManager audioManager;
 
     private Rigidbody2D _rb;
 
@@ -17,6 +17,7 @@ public class PlayerLocomotion : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody2D>();
         inputHandler = GetComponent<InputHandler>();
+        audioManager = AudioManager.instance;
     }
 
     public void Update()
