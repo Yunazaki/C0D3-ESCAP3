@@ -10,9 +10,11 @@ namespace _Scripts.Lock
 
         private int dividerPosition;
         private string buttonName, buttonValue;
+        private AudioManager _audioManager;
 
         void Start()
         {
+            _audioManager = AudioManager.instance;
             buttonName = gameObject.name;
             dividerPosition = buttonName.IndexOf("_");
             buttonValue = buttonName.Substring(0, dividerPosition);
@@ -23,6 +25,7 @@ namespace _Scripts.Lock
         private void ButtonClicked()
         {
             ButtonPressed(buttonValue);
+            
         }
     }
 }

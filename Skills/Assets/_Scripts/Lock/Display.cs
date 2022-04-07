@@ -8,6 +8,7 @@ namespace _Scripts.Lock
     {
         [SerializeField] private Sprite[] digits;
         [SerializeField] private Image[] characters;
+        [SerializeField] private GameObject door;
         
         private string codeSequence;
         [SerializeField]
@@ -140,11 +141,10 @@ namespace _Scripts.Lock
         {
             if (codeSequence == code)
             {
-                Debug.Log("Correct!");
+                door.SetActive(false);
             }
             else
             {
-                Debug.Log("Wrong");
                 ResetDisplay();
             }
         }
